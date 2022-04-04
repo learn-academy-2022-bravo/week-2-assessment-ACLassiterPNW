@@ -59,7 +59,15 @@ Class inheritance involves a parent (generic) class, and child (specific) class 
 React is a scalable programming language commonly used to build webpages and mobile applications. The structure of React is such that everything is a component, or function, and those components share characteristics that can be used in a similar way. 
 
 3. React state:
+React state is an object that exists inside the constructor method, and serves to store a component's (function's) data that dictate how it acts. 
 
 4. React lifecycle methods:
+React lifecycle methods work within the three phases of a lifecycle: Mounting, Updating, and Unmounting. 
+The methods used in mounting include:
+Constructor(), getDerivedStateFromProps(), render(), and componentDidMount()
+The methods used in updating include: 
+getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), and componentDidUpdate() 
+The only method used in unmounting is known as componentWillUnmount(). 
 
 5. DOM:
+DOM stands for Document Object Model, and is created by the browser when a web page is loaded. The DOM gives a data representation of the objects that make up the structure of a web document. This allows programming languages to interact with the webpage. 
