@@ -75,18 +75,21 @@ console.log(myCodingSkills.languages[0])
 
 // // --------------------STRETCH: What will this log?
 
-// class Learn {
-//   constructor(name){
-//     this.student = name,
-//     this.cohort = "Bravo",
-//     this.year = 2022
-//   }
-// }
-// var learnStudent = new Learn("George")
-// console.log(learnStudent)
+class Learn {
+  constructor(name){
+    this.student = name,
+    this.cohort = "Bravo",
+    this.year = 2022
+  }
+}
+var learnStudent = new Learn("George")
+console.log(learnStudent)
 
-// // a) Your answer:
-// // b) Verify and explain:
+// // a) Your answer: I think this will log: 
+//Learn { student: 'George', cohort: 'Bravo', year: 2022 }
+
+// // b) Verify and explain: 
+// This logs Learn { student: 'George', cohort: 'Bravo', year: 2022 }. The variable learnStudent is creating a new object (student) named George having the same characteristics found in class Learn, with George modifying the name parameter. 
 
 
 
